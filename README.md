@@ -7,3 +7,27 @@ I learn Python for few months now and wanted to explore various possibilities it
 
 Subtask 4: QUIZ
 5/14
+
+# Task 2: Selectors
+
+Subtask 2: Find selectors on sign in page 
+
+1. Remind password
+   
+//*[@id="__next"]/form/div/div[1]/a
+//*[text()="Remind password"]
+//child::div/a
+   
+2. Sign in 
+   
+//*[@id="__next"]/form/div/div[2]/button/span[1]
+//button[contains(., 'Sign in')]
+//button[@type='submit' and span[contains(text(), 'Sign in')]]
+
+3. Language 
+
+//*[@id="__next"]/form/div/div[2]/div/div
+//div[@class='MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input' and @aria-haspopup='listbox']
+//*[text()="English"] / //*[text()="Polski"]
+
+
