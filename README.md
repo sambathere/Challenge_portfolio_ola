@@ -35,7 +35,7 @@ Subtask 2: Find selectors on sign in page
 
 To zadanie pozwoliło mi m.in.:
 
-✅ poznać dogłębnie framework, na którym będę pracować,
+✅ poznać framework, na którym będę pracować,
 
 ✅ klikać w elementy na stronie,
 
