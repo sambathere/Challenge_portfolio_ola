@@ -34,8 +34,13 @@ Subtask 2: Find selectors on sign in page
 Task 3: Automatic test + asserts
 
 To zadanie pozwoliło mi m.in.:
+
 ✅ poznać dogłębnie framework, na którym będę pracować,
+
 ✅ klikać w elementy na stronie,
+
 ✅ wypełniać pola tekstem,
+
 ✅ wykorzystać assert title, 
+
 ✅ uruchomić test.
