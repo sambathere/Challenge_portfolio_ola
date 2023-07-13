@@ -31,7 +31,7 @@ Subtask 2: Find selectors on sign in page
 * //*[text()="English"] / //*[text()="Polski"]
 
 
-Task 3: Automatic test + asserts
+# Task 3: Automatic test + asserts
 
 To zadanie pozwoliło mi m.in.:
 
