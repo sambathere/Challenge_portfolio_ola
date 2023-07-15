@@ -4,15 +4,15 @@ import time
 
 from selenium.webdriver.chrome.service import Service
 
-from selenium.webdriver.common.by import By
-
 from selenium import webdriver
+
+from pages.dashboard import Dashboard
 
 from utils.settings import DRIVER_PATH, IMPLICITLY_WAIT
 
 from pages.login_page import LoginPage
 
-from pages.dashboard import Dashboard
+
 
 
 #def assert_element_text(driver, xpath, expected_text):
@@ -39,8 +39,8 @@ class TestLoginPage(unittest.TestCase):
         user_login.click_sign_in_button()
         dashboard_page = Dashboard(self.driver)
         dashboard_page.title_of_page()
-        #field_text = assert_element_text(self.driver, "//element_xpath", "Scout Panel")
         time.sleep(5)
+        #field_text = assert_element_text(self.driver, "//element_xpath", "Scout Panel")
 
 
     @classmethod
