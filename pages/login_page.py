@@ -1,5 +1,12 @@
+from datetime import time
 
 from pages.base_page import BasePage
+
+import pyautogui
+
+def take_screenshot(Leg_dropdown, screenshott):
+    screenshot = pyautogui.screenshot()
+    screenshot.save(screenshott)
 
 
 class LoginPage(BasePage):
@@ -16,12 +23,23 @@ class LoginPage(BasePage):
     surname_add_a_player_form_xpath = '//*/div/div[3]/div/div/input'
     main_position_add_a_player_form_xpath = '//*/div/div[11]/div/div/input'
     age_add_a_player_form_xpath = '//*/div/div[7]/div/div/input'
+    leg_dropdown_xpath = '//*[@id="mui-component-select-leg"]'
+    Right_leg_select = '//*[@id="menu-leg"]/div[3]/ul/li[1]'
+    Left_leg_select = '//*[@id="menu-leg"]/div[3]/ul/li[2]'
     submit_add_a_player_form_xpath = '//*/form/div[3]/button[1]/span[1]'
     clear_button_xpath = '//*/div[3]/button[2]/span[1]'
     element_xpath = "//*/div//h5"
     DEV_TEAM_CONTACT_button_xpath = '//div[1]/div/div[3]/a/span[1]'
     login_url = 'https://scouts-test.futbolkolektyw.pl/en/login'
     expected_title = 'Scouts panel - sign in'
+
+
+    def select_leg(self, leg):
+        self.click_on_the_element(self.leg_dropdown_xpath)
+        if leg == 'Right leg':
+            self.click_on_the_element(self.Right_leg_select)
+        else:
+            self.click_on_the_element(self.Left_leg_select)
 
 
     def type_in_email(self, email):
