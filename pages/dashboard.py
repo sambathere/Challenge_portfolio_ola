@@ -18,16 +18,13 @@ from pages.base_page import BasePage
 #Last_updated_report_button_path = "//*[@id='__next']/div[1]/main/div[3]/div[3]/div/div/a[5]/button/span[1]"
 
 
-class WebDriverWait:
-    pass
-
 
 class Dashboard(BasePage):
 
     futbol_kolektyw_logo_xpath = '//*[@title="Logo Scouts Panel"]'
     add_a_player_button_xpath = "//*/div/a/button"
-    expected_title = 'Scouts panel - sign in'
-    dashboard_url = 'https://scouts-test.futbolkolektyw.pl/en/dashboard'
+    expected_title = 'Scouts panel'
+    dashboard_url = 'https://scouts-test.futbolkolektyw.pl'
     Wait = WebDriverWait(driver, 10)
 
 

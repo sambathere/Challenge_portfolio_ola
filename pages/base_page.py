@@ -7,8 +7,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 from selenium.webdriver.support import expected_conditions as EC
 
-
-from pages.base_page import BasePage
 from utils.settings import DEFAULT_LOCATOR_TYPE, EXPLICITLY_WAIT
 
 
@@ -17,7 +15,7 @@ class BasePage():
     def __init__(self, driver):
         self.driver = driver
 
-    def field_send_keys(selfself, selector, value, locator_type=By.XPATH, self=None):
+    def field_send_keys(self, selector, value, locator_type=By.XPATH):
         return self.driver.find_element(locator_type, selector).send_keys(value)
 
     def click_on_the_element(self, selector, selector_type=By.XPATH):
@@ -37,4 +35,6 @@ class BasePage():
         wait = WebDriverWait(self.driver, 10)
         element = wait.until(EC.element_to_be_clickable((locator_type, locator)))
 
-
+    def wait_for_visibility_of_element_located(self, locator, locator_type=By.XPATH):
+        wait = WebDriverWait(self.driver, 10)
+        element = wait.until(EC.visibility_of_element_located((locator_type, locator)))

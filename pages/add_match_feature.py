@@ -13,5 +13,6 @@ class add_match_feature(BasePage):
     General_field = "//*[@id='__next']/div[1]/main/div[2]/form/div[2]/div/div[12]/div/div/input"
     Web_match_field = "//*[@id='__next']/div[1]/main/div[2]/form/div[2]/div/div[11]/div/div/input"
     Number_rating = "//*[@id='__next']/div[1]/main/div[2]/form/div[2]/div/div[10]/div/div/input"
+    name_add_a_player_form_xpath = "//*/div/div[2]/div/div"
 
 pass
