@@ -44,3 +44,112 @@ To zadanie pozwoliło mi m.in.:
 ✅ wykorzystać assert title, 
 
 ✅ uruchomić test.
+
+
+# Task 4: Refactor, debugger and TC
+
+1. Przypadek testowy: Logowanie użytkownika z funkcją wait - "visibility_of_element_located"
+Opis: Test sprawdza funkcjonalność logowania użytkownika do strony internetowej.
+Warunki początkowe:
+Aplikacja jest uruchomiona.
+Strona logowania jest wyświetlona.
+Kroki testowe:
+Wprowadź poprawne dane użytkownika (prawidłowy login i hasło).
+Kliknij przycisk "Zaloguj" lub ‘ Sign in’ (w zależności od wersji językowej)
+Oczekiwany wynik:
+Użytkownik zostaje zalogowany i przekierowany do strony głównej.
+Rzeczywisty wynik:
+
+	Pass
+
+
+Plik “ID_1 TC.mp4”
+
+2. Przypadek testowy: Dodawanie gracza z poziomu shortcuts - ADD PLAYER
+
+Opis: Test sprawdza funkcjonalność button ‘ADD PLAYER’ (shortcut)
+Warunki początkowe:
+Aplikacja jest uruchomiona.
+Użytkownik jest zalogowany.
+Widok ‘MAIN PAGE’ ustawiony (domyślny)
+Kroki testowe:
+Wprowadź poprawne dane użytkownika (prawidłowy login i hasło).
+Kliknij przycisk "Zaloguj" lub ‘ Sign in’ (w zależności od wersji językowej)
+Kliknij ‘ADD PLAYER’ button (shortcut)
+Wypełnij pole ‘Name’ 
+Wypełnij pole ‘Surname”
+Wypełnij pole ‘Main position’
+Wypełnij pole ‘Age’
+Wypełnij opcjonalnie pola ‘Phone’, ‘Weight’, ‘Height (cm)’, ‘Club’, ‘Level’, ‘Second position’, ‘Achievements’.
+Wybierz opcjonalnie ‘District’.
+Kliknij button “SUBMIT’.
+
+Oczekiwany wynik:
+Gracz jest dodany do listy ‘Players’
+Rzeczywisty wynik:
+
+	Pass
+
+
+Plik “ID_2 TC.mp4”
+3. Przypadek testowy: Wylogowywanie użytkownika ze strony
+Opis: Test sprawdza funkcjonalność wylogowania użytkownika ze strony internetowej.
+Warunki początkowe:
+Aplikacja jest uruchomiona.
+Strona logowania jest wyświetlona.
+Kroki testowe:
+Wprowadź poprawne dane użytkownika (prawidłowy login i hasło).
+Kliknij przycisk "Zaloguj" lub ‘ Sign in’ (w zależności od wersji językowej)
+Kliknij przycisk ‘Sign out”
+Oczekiwany wynik:
+Użytkownik zostaje zalogowany i przekierowany do strony głównej, a następnie wylogowany ze strony internetowej.
+Rzeczywisty wynik:
+
+	Pass
+
+Plik “ID_3 TC.mp4”
+
+4. Przypadek testowy: Wyczyszczenie formularza (Players)
+Opis: Test sprawdza funkcjonalność button ‘CLEAR’
+Warunki początkowe:
+Aplikacja jest uruchomiona.
+Użytkownik jest zalogowany.
+Widok ‘MAIN PAGE’ ustawiony (domyślny)
+Kroki testowe:
+Wprowadź poprawne dane użytkownika (prawidłowy login i hasło).
+Kliknij przycisk "Zaloguj" lub ‘ Sign in’ (w zależności od wersji językowej)
+Kliknij ‘ADD PLAYER’ button (shortcut)
+Wypełnij pole ‘Name’ 
+Wypełnij pole ‘Surname”
+Wypełnij pole ‘Main position’
+Wypełnij pole ‘Age’
+Kliknij button ‘CLEAR’.
+Oczekiwany wynik:
+Formularz zostaje wypełniony danymi, a następnie wyczyszczony.
+Rzeczywisty wynik:
+
+	Pass
+
+Plik “ID_4 TC.mp4”
+
+
+5. Przypadek testowy: Przejście do podanego kontaktu ze strony 
+
+Opis: Test sprawdza funkcjonalność button ‘DEV TEAM CONTACT’.
+Warunki początkowe:
+Aplikacja jest uruchomiona.
+Użytkownik jest zalogowany.
+Widok ‘MAIN PAGE’ ustawiony (domyślny)
+Kroki testowe:
+Wprowadź poprawne dane użytkownika (prawidłowy login i hasło).
+Kliknij przycisk "Zaloguj" lub ‘ Sign in’ (w zależności od wersji językowej)
+Kliknij ‘DEV TEAM CONTACT’ button.
+Oczekiwany wynik:
+Strona przekierowuje do strony Slack
+Rzeczywisty wynik:
+
+	Pass
+
+
+Plik “ID_5 TC.mp4”
+
