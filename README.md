@@ -48,6 +48,11 @@ To zadanie pozwoliło mi m.in.:
 
 # Task 4: Refactor, debugger and TC
 
+Dysk Google:
+
+https://docs.google.com/document/d/1o6NgVOIhq02r0boQn1dAh_ujoR0QVQo6tosbjFxZ-0c/edit
+
+
 1. Przypadek testowy: Logowanie użytkownika z funkcją wait - "visibility_of_element_located"
 
 Opis: Test sprawdza funkcjonalność logowania użytkownika do strony internetowej.
