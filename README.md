@@ -50,6 +50,8 @@ To zadanie pozwoliło mi m.in.:
 
 Dysk Google:
 
+https://drive.google.com/drive/folders/1smaZKkAngtYMGkoDLhayuQq_kyScp_xA?hl=pl
+
 https://docs.google.com/document/d/1o6NgVOIhq02r0boQn1dAh_ujoR0QVQo6tosbjFxZ-0c/edit
 
 
