@@ -200,3 +200,12 @@ Plik “ID_5 TC.mp4”
 # Task 5: Robot Framework
 
 https://github.com/sambathere/testing_robotframework
+
+
+# Task 6: Defects and test reports
+
+Dysk Google:
+
+Test report - https://docs.google.com/document/d/1LFQEXqvTNv-dwH8KyClE0Zn7aJo2aTzgOEnmQU34XHA/edit
+
+Defects report - https://docs.google.com/document/d/1ZtECcnGr7r4Z9bqofxh332G9vTGhmH646kW7khVi2xg/edit
